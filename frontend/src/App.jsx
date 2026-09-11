@@ -6,6 +6,9 @@ function App() {
     <>
      <h1>Hello chirag from react after long time</h1>
      <h2>usestate var value: {num}</h2>
+     <button onClick={() => {
+      setNum(num + 1);
+     }}>Increment: {num}</button>
     </>
   )
 }
