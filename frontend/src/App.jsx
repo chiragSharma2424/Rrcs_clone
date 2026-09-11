@@ -1,14 +1,10 @@
-import { useState } from "react";
+import React from "react";
+import Login from "./components/Login";
 
 function App() {
-  const [ num, setNum ]  = useState(24);
   return (
     <>
-     <h1>Hello chirag from react after long time</h1>
-     <h2>usestate var value: {num}</h2>
-     <button onClick={() => {
-      setNum(num + 1);
-     }}>Increment: {num}</button>
+    <Login></Login>
     </>
   )
 }
